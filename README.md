@@ -8,4 +8,4 @@ But during all this the Service and Clarification Group (S.C.G), were assigned b
 **NOTE: Hey everyone, this github page is deticated for users wanting to help with the game and participate. Of cource, the game is not done and only the first chapter is done. If you want to fix any issues with the game or have**
 **some ideas, make a pull susgestion and I'll have a look at it.**
 
-### The Itch.io Page: [Click me, hehe!](https://gordonmdl.itch.io/sandflies)
+### The Itch.io Page: [Game Page](https://gordonmdl.itch.io/sandflies)
