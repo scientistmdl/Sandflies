@@ -6,6 +6,6 @@ But during all this the Service and Clarification Group (S.C.G), were assigned b
 *Players engage with the story by making choices that lead to different outcomes. This keeps track of the player interactions, affecting future dialogues with characters.*
 
 **NOTE: Hey everyone, this github page is deticated for users wanting to help with the game and participate. Of cource, the game is not done and only the first chapter is done. If you want to fix any issues with the game or have**
-**some ideas, make a pull susgestion and I'll have a look at it. [Itch.io](https://gordonmdl.itch.io/sandflies)
+**some ideas, make a pull susgestion and I'll have a look at it. [Itch.io](https://gordonmdl.itch.io/sandflies)**
 
 [![Watch the video](https://img.youtube.com/vi/r-tWO07ZLLE/maxresdefault.jpg)](https://youtu.be/r-tWO07ZLLE)
