@@ -7,11 +7,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
     <link rel="icon" href="icon.ico" type="image/x-icon">
     <style>
+
         body {
             font-family: 'Anonymous Pro', monospace;
             margin: 0;
             padding: 0;
-            background: url('background.png') no-repeat center center fixed;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.8)), url('background.png') no-repeat center center fixed;
             background-size: cover;
             color: #ffffff;
             display: flex;
@@ -19,35 +20,68 @@
             align-items: flex-start;
             justify-content: center;
             height: 100vh;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
             padding-left: 50px;
         }
+        
         header {
             text-align: left;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
         }
+
         header h1 {
-            font-size: 3rem;
+            font-size: 4rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #ffffff;
+            animation: glow 1.5s infinite alternate;
         }
+
         header p {
-            font-size: 1.2rem;
-        }
-        .status {
-            background-color: rgb(255, 255, 255);
-            color: #000000;
-            padding: 20px;
-            border-radius: 8px;
-            text-align: center;
             font-size: 1.5rem;
+            margin-top: 10px;
         }
+
+        header a {
+            color: #ffffff;
+            text-decoration: underline;
+            transition: color 0.3s ease-in-out;
+        }
+
+        header a:hover {
+            color: #999999;
+        }
+
+        .status {
+            background: rgba(255, 255, 255, 0.9);
+            color: #000000;
+            padding: 25px 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(150, 150, 150, 0.5);
+            animation: glow 1.5s infinite alternate;
+            text-align: center;
+            font-size: 1.6rem;
+            max-width: 500px;
+        }
+
         .status span {
             font-weight: bold;
             color: #000000;
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 5px #ffffff8a, 0 0 10px #ffffff8a, 0 0 15px #ffffff8a;
+            }
+            to {
+                text-shadow: 0 0 20px #ffffff8a, 0 0 25px #ffffff8a, 0 0 30px #ffffff8a;
+            }
         }
     </style>
     <script>
         const statuses = [
             "Game Status: 15% Complete",
-            "The games status is on limbo, could be running into problems or something else.",
+            "The game's status is in limbo; could be running into problems or something else."
         ];
 
         let currentStatusIndex = 0;
@@ -63,7 +97,7 @@
 <body>
     <header>
         <h1>SANDFLIES</h1>
-        <p>Game on <a href="https://gordonmdl.itch.io/sandflies" target="_blank" style="color: #ffffff;">itch.io</a>, game in development.</p>
+        <p>Available to view on <a href="https://gordonmdl.itch.io/sandflies" target="_blank">itch.io</a>, in development...</p>
     </header>
 
     <div class="status">
